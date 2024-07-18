@@ -26,7 +26,7 @@ function InVideoQuizXBlock(runtime, element) {
     var displayIntervalTimeout = 1500;
 
     $(function () {
-        $('#seq_content .vert-mod .vert, #course-content .vert-mod .vert').each(function () {
+        $('main .vert-mod .vert').each(function () {
             var component = $(this);
 
             if (studentMode) {
